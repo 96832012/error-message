@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hind", sans-serif;
+}
+
+.box {
+  background-color: lightgray;
+  min-width: 400px;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 15px;
+}
+
+.form {
+  width: 90%;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form input {
+  width: 100%;
+  height: 32px;
+  background-color: #fff;
+  color: black;
+  padding: 8px;
+  border: none;
+  border-radius: 15px;
+  font-family: "Hind", sans-serif;
+}
+
+.form button {
+  width: 50%;
+  height: 32px;
+  border-radius: 15px;
+  background-color: aqua;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.form button:hover {
+  background-color: blue;
+  scale: 1.1;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list-el {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.buttons-list {
+  display: flex;
+  gap: 4px;
+}
+
+.list-el button {
+  width: 64px;
+  height: 32px;
+  border-radius: 15px;
+  background-color: aqua;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.list-el button:hover {
+  background-color: blue;
+  scale: 1.1;
+}
+
+.error-message {
+  color: red;
+}
